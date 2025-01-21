@@ -330,13 +330,6 @@ $graph:
                           with_raster=True,
                           with_eo=True,
                       )
-                      #item_dict=out_item.to_dict()
-                      #item_dict["properties"]["processing:datetime"]=str(datetime.datetime.now())
-                      #item_dict["properties"]["processing:software"]={"ZOO-Project":"2.0.1"}
-                      #item_dict["stac_extensions"]+=["https://stac-extensions.github.io/processing/v1.2.0/schema.json"]
-                      #print(f"get raster info {str(item_dict)}",file=sys.stderr)
-                      #out_item=pystac.Item.from_dict(item_dict)
-
 
                       cat.add_items([out_item])
 
